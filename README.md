@@ -17,3 +17,6 @@ to update this tool you need to force reinstall it:
 ```bash
 pip install --upgrade --force-reinstall git+https://github.com/therosin/SubnetPlannerGUI
 ```
+
+### Screenshot
+![Screenshot](static/SubnetPlannerGUI.png)
