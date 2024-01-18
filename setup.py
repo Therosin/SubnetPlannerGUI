@@ -28,7 +28,7 @@ if __name__ == "__main__":
         """,
         author="Therosin",
         author_email="theros@svaltek,xyz",
-        url="https:github.com/therosin/SubnetPlanner-GUI",
+        url="https://github.com/therosin/SubnetPlannerGUI",
         packages=["SubnetPlannerGUI"],
         install_requires=[],
         entry_points={
