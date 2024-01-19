@@ -101,9 +101,10 @@ def display_results(subnets):
             borderwidth=2,
             relief="groove",
             wraplength=300,
-            width=30,
         )
-        subnet_label.pack(pady=3, fill="both", expand=True, anchor="w")
+        subnet_label.pack(
+            pady=3, ipadx=2, ipady=2, fill="both", expand=True, anchor="w"
+        )
         # BUG reset scrollable area to top to ensure the frame gets updated correctly.
         canvas.yview_moveto(0)
 
@@ -113,7 +114,7 @@ def main():
     # main window
     root = tk.Tk()
     root.title("Subnet Planner   -  by: @theros")
-    root.geometry("250x400")
+    root.geometry("290x400")
 
     # Top frame
     top_frame = tk.Frame(root)
